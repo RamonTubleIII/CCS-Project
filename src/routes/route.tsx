@@ -5,9 +5,9 @@ import Login from '../pages/login';
 const RoutesComponent: React.FC = () => {
   
     return (
-      <Routes>
-        <Route path="/" element={<Login />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Login />} />
+        </Routes>
     );
   };
   
