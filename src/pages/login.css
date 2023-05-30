@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .login-form{
@@ -11,6 +12,7 @@
     box-shadow: -4px -4px 30px rgba(0, 0, 0, 0.8), 4px 4px 30px rgba(0, 0, 0, 0.8);
     width: 33vw;
     height:85vh;
+    
 }
 .login-form--header{
     display: flex;
@@ -19,13 +21,13 @@
     align-items: center;
 }
 
-.ccs-logo{
-    transform: scale(65%);
+.ccs-logo{ 
+    transform: scale(60%);
     margin-bottom: -3em
 ;}
 h1{
-    font-family: 'Oswald';
-    font-style: normal;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-style: normal !important;
     font-weight: 600;
     color: #D5D2E3;
 }
@@ -35,6 +37,18 @@ h2{
     font-weight: 600;
     color: #D5D2E3;
 }
+
+.MuiBox-root {
+    width: 100%;
+    padding: 5em 8em;
+}
+
+.MuiTextField-root {
+  width: 100% ;
+}
 .MuiInputLabel-root {
+    color: #c578ff !important;
+  }
+  .MuiInputBase-input  {
     color: white !important;
   }
