@@ -20,14 +20,14 @@ const Login = () => {
     border: '1px solid #c3b2cf',
     boxShadow: 'inset 2px 2px 5px rgba(0, 0, 0, 0.9)',
     borderRadius: '5px',
-    color: '#FFF'
+    color: '#FFF',
+    fontSize: '0.8em'
   };
   const signInButtonStyle: React.CSSProperties = {
     background: 'linear-gradient(270deg, #47156E -6.84%, #341050 30.49%, #0E0217 100.14%)',
     boxShadow: 'inset 0px 0px 4px #B36DEA',
     filter: 'drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.6))',
-    margin: '2em 6em',
-    padding: '0.8em'
+    width: '40%'
   };
 
   return (
@@ -50,9 +50,9 @@ const Login = () => {
                   gap: 2,
                 }}
               >
-                <TextField id="Team_ID" label="Team ID" variant="filled" style={inputStyle}/>
-                <TextField id="User_ID" label="Username" variant="filled" style={inputStyle}/>
-                <TextField id="Password" label="Password" variant="filled" style={inputStyle}/>
+                <TextField id="Team_ID" label="Team ID" variant="filled" size="small" style={inputStyle}/>
+                <TextField id="User_ID" label="Username" variant="filled" size="small" style={inputStyle}/>
+                <TextField id="Password" label="Password" variant="filled" size="small" style={inputStyle}/>
 
                 <Button variant="contained" style={signInButtonStyle}>Sign In</Button>
               </Box>
