@@ -13,7 +13,7 @@ const Login = () => {
     backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
-
+    filter:'contrast(80%)'
   };
   const inputStyle: React.CSSProperties = {
     background: '#0B0B0E',
@@ -21,7 +21,7 @@ const Login = () => {
     boxShadow: 'inset 2px 2px 5px rgba(0, 0, 0, 0.9)',
     borderRadius: '5px',
     color: '#FFF',
-    fontSize: '0.8em'
+
   };
   const signInButtonStyle: React.CSSProperties = {
     background: 'linear-gradient(270deg, #47156E -6.84%, #341050 30.49%, #0E0217 100.14%)',
@@ -36,9 +36,9 @@ const Login = () => {
         <div className="login-form">
           <>
             <div className="login-form--header">
+              <h1 className="login-header--text login-headerT"> College of Computer Studies </h1>
+              <h2 className="login-header--text login-subheaderT"> Programming Contest</h2> <br/>
               <img src={ccs_logo}  className="ccs-logo" alt="CCS LOGO"/>
-              <h1> College of Computer Studies </h1>
-              <h2> Programming Contest</h2>
             </div>
               <Box
                 component="form"
@@ -52,7 +52,7 @@ const Login = () => {
               >
                 <TextField id="Team_ID" label="Team ID" variant="filled" size="small" style={inputStyle}/>
                 <TextField id="User_ID" label="Username" variant="filled" size="small" style={inputStyle}/>
-                <TextField id="Password" label="Password" variant="filled" size="small" style={inputStyle}/>
+                <TextField type="password" id="Password" label="Password" variant="filled" size="small" style={inputStyle}/>
 
                 <Button variant="contained" style={signInButtonStyle}>Sign In</Button>
               </Box>

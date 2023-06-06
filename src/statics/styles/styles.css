@@ -47,14 +47,23 @@ table {
 	border-spacing: 0;
 }
 
+
 /* Personal CSS */
 
 .body-wrapper{
     min-height: 100vh;
     min-width: 100vw;
     color: white;
+
+	display: flex;
+	justify-items: center;
+	align-items: center;
 }
 .body-responsive{
-    height: 100vh;
+    height: 100%;
     width: 100%;
+	
+	display: flex;
+	justify-content: center;
+	align-content: center;
 }

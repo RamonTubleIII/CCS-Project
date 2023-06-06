@@ -12,13 +12,13 @@
     box-shadow: -4px -4px 30px rgba(0, 0, 0, 0.8), 4px 4px 30px rgba(0, 0, 0, 0.8);
     width: 33%;
     height:85%;
+    padding: 2em 0em;
 }
 .login-form--header{
     display: flex;
     flex-direction: column;
-
+    padding-bottom: 2em;
     align-items: center;
-    padding: 2em;
 }
 
 .ccs-logo{ 
@@ -42,6 +42,8 @@ h2{
     width: 100%;
     align-items: center;
     justify-items: center;
+
+    margin-bottom: 2em;
 }
 
 .MuiTextField-root {
@@ -52,5 +54,14 @@ h2{
     color: #c578ff !important;
   }
   .MuiInputBase-input  {
-    color: white !important;
+    color: rgb(193, 193, 198) !important;
   }
+
+.login-headerT{
+    font-size: 1.2em !important;
+    line-height: 1em;;
+}
+.login-subheaderT{
+    font-size: 0.98em !important;
+}
+
